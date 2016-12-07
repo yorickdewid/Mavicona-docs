@@ -15,7 +15,7 @@
               <span class="glyphicon glyphicon-option-vertical"></span>
             </button>
 
-            <a class="navbar-brand" href="index-2.html"><img src="/img/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="logo"></a>
           </div>
           <!-- END Toggle buttons and brand -->
 
@@ -71,7 +71,7 @@
                   <i class="fa fa-cloud-download"></i>
                   <h3>Scraper</h3>
                   <p>Your documentation works on any device: desktop, tablet or mobile.</p>
-                    <a class="btn btn-teal btn-outline" href="/banner">Read documentation</a>
+                    <a class="btn btn-teal btn-outline" href="/scraper/intro">Read documentation</a>
                 </div>
               </div>
 
@@ -80,7 +80,7 @@
                   <i class="fa fa-flask"></i>
                   <h3>Extractor</h3>
                   <p>You can easily read, edit, and write your own code, or change everything.</p>
-                    <a class="btn btn-teal btn-outline" href="/index">Read documentation</a>
+                    <a class="btn btn-teal btn-outline" href="/scraper/index">Read documentation</a>
                 </div>
               </div>
 

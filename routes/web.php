@@ -11,23 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/', 'Controller@getIndex');
+
+Route::get('/scraper/intro', function () {
+    return view('doc_banner');
 });
 
-Route::get('/banner', function () {
-    return view('component_banner_sample1');
+Route::get('/scraper/page', function () {
+    return view('doc_page');
 });
 
-Route::get('/index', function () {
-    return view('layout_full_left-sidebar');
-});
-
-Route::get('/faq', function () {
-    return view('page_faq');
-});
-
-Route::get('/changelog', function () {
-    return view('changelog');
-});
-
+Route::get('/faq', 'Controller@getFaq');
+Route::get('/changelog', 'Controller@getChangeLog');

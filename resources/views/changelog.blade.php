@@ -3,65 +3,14 @@
 @extends('layout.master')
 
 @section('content')
-    <header class="site-header">
 
-      <!-- Top navbar & branding -->
-      <nav class="navbar navbar-default">
-        <div class="container">
-
-          <!-- Toggle buttons and brand -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
-              <span class="glyphicon glyphicon-option-vertical"></span>
-            </button>
-
-            <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="index-2.html"><img src="/img/logo.png" alt="logo"></a>
-          </div>
-          <!-- END Toggle buttons and brand -->
-
-          <!-- Top navbar -->
-          <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index-2.html">Documentation</a></li>
-              <li><a href="page_blog.html">Blog</a></li>
-              <li><a href="page_faq.html">FAQ</a></li>
-              <li><a href="http://themeforest.net/item/thedocs-online-documentation-template/13070884/comments" target="_blank">Support</a></li>
-              <li class="hero"><a href="http://themeforest.net/item/thedocs-online-documentation-template/13070884">Purchase</a></li>
-            </ul>
-          </div>
-          <!-- END Top navbar -->
-
-        </div>
-      </nav>
-      <!-- END Top navbar & branding -->
-      
-    </header>
-
+    @include('layout.header')
 
     <main class="container">
       <div class="row">
 
         <!-- Main content -->
         <article class="col-md-12 col-sm-12 main-content" role="main">
-          
-          <header>
-            <h1>Changelog</h1>
-            <p>In this page, you can find a record of all the changes made to this project such as bug fixes, new features, etc.</p>
-
-            <ol class="toc">
-              <li><a href="#v1.3.1">Version 1.3.1</a></li>
-              <li><a href="#v1.3.0">Version 1.3.0</a></li>
-              <li><a href="#v1.2.0">Version 1.2.0</a></li>
-              <li><a href="#v1.1.0">Version 1.1.0</a></li>
-              <li><a href="#v1.0.0">Version 1.0.0</a></li>
-            </ol>
-          </header>
 
           <section>
             <h3 id="v1.3.1">Version 1.3.1 <small class="release-date">September 15, 2016</small></h3>
