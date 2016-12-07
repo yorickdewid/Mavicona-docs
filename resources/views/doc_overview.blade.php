@@ -4,7 +4,26 @@
 
 @section('content')
 
-    @include('layout.header')
+    <header class="site-header">
+
+      @include('layout.header')
+
+      <!-- Banner -->
+      <div class="banner banner-full-height overlay-white" style="background-image: url(/img/banner2.jpg);">
+        <div class="container text-left">
+          <h1 class="text-teal"><strong>{{ ucfirst($title) }}</strong></h1>
+          <h5 class="text-uppercase">The best documentation template available!</h5>
+          <br>
+          <p class="hidden-xs hidden-sm"><strong>theDocs</strong> is a html online documentation template which can help you rapidly develop your next software's documentation. It can be used for documenting API, frameworks, plugins, templates, etc. It's based on Bootstrap and contains a lot of components to easily make your interactive documentation.</p>
+          <br>
+          <p>
+            <a class="btn btn-teal btn-lg text-uppercase" href="/{{ $title }}/page" role="button"> Read documentation </a>
+          </p>
+        </div>
+      </div>
+      <!-- END Banner -->
+
+    </header>
 
     <main class="container-fluid">
       <div class="row">

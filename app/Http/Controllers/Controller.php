@@ -23,4 +23,14 @@ class Controller extends BaseController
     {
         return view('changelog');
     }
+
+    public function getDocOverview($module)
+    {
+        return view('doc_overview', ['title' => $module]);
+    }
+
+    public function getDocPage($module)
+    {
+        return view('doc_page', ['title' => $module]);
+    }
 }

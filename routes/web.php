@@ -13,13 +13,8 @@
 
 Route::get('/', 'Controller@getIndex');
 
-Route::get('/scraper/intro', function () {
-    return view('doc_banner');
-});
-
-Route::get('/scraper/page', function () {
-    return view('doc_page');
-});
+Route::get('/{module}/overview', 'Controller@getDocOverview');
+Route::get('/{module}/page', 'Controller@getDocPage');
 
 Route::get('/faq', 'Controller@getFaq');
 Route::get('/changelog', 'Controller@getChangeLog');

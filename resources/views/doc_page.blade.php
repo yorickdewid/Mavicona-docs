@@ -4,7 +4,11 @@
 
 @section('content')
 
-    @include('layout.header')
+    <header class="site-header">
+
+      @include('layout.header')
+
+    </header>
 
     <main class="container-fluid">
       <div class="row">
@@ -13,9 +17,9 @@
         <aside class="col-lg-2 col-md-3 col-sm-3 sidebar">
 
           <ul class="sidenav dropable sticky">
-            <li><a href="index-2.html">Overview</a></li>
+            <li><a href="/scraper/overview"><strong>Overview</strong></a></li>
             <li>
-              <a class="active" href="#">Layouts</a>
+              <a class="active" href="#">Introduction</a>
               <ul>
                 <li><a href="layout_boxed_left-sidebar.html">Boxed - Left sidebar</a></li>
                 <li><a href="layout_boxed_right-sidebar.html">Boxed - Right sidebar</a></li>
@@ -111,7 +115,7 @@
         <article class="col-lg-10 col-md-9 col-sm-9 main-content" role="main">
           
           <header>
-            <h1>Page title</h1>
+            <h1>Page {{ $title }}</h1>
             <p>All HTML headings, h1 through h6, are available. .h1 through .h6 classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.</p>
             <ol class="toc">
               <li>

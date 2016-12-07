@@ -4,7 +4,11 @@
 
 @section('content')
 
-    @include('layout.header')
+    <header class="site-header">
+
+      @include('layout.header')
+
+    </header>
 
     <main class="container">
       <div class="row">
@@ -12,7 +16,7 @@
         <!-- Main content -->
         <article class="col-md-12 col-sm-12 main-content" role="main">
 
-          <section>
+          <!-- <section>
             <h3 id="v1.3.1">Version 1.3.1 <small class="release-date">September 15, 2016</small></h3>
             <br>
             <ul class="changelog">
@@ -20,9 +24,9 @@
               <li class="ch-fixed">Change tab issue in code window and code tab</li>
               <li class="ch-updated">Some improvements for small screen devices</li>
             </ul>
-          </section>
+          </section> -->
 
-          <section>
+          <!-- <section>
             <h3 id="v1.3.0">Version 1.3.0 <small class="release-date">August 11, 2016</small></h3>
             <br>
             <ul class="changelog">
@@ -40,9 +44,9 @@
               <li class="ch-updated">gruntfile.js - deprecated autoprefixer updated and BrowserSync added</li>
               <li class="ch-updated">Some improvements to CSS and JS code</li>
             </ul>
-          </section>
+          </section> -->
 
-          <section>
+          <!-- <section>
             <h3 id="v1.2.0">Version 1.2.0 <small class="release-date">December 28, 2015</small></h3>
             <br>
             <ul class="changelog">
@@ -56,10 +60,9 @@
               <li class="ch-updated">FontAwesome updated to <strong>v4.5</strong></li>
               <li class="ch-fixed">Minor bugs in responsivity</li>
             </ul>
+          </section> -->
 
-          </section>
-
-          <section>
+          <!-- <section>
             <h3 id="v1.1.0">Version 1.1.0 <small class="release-date">October 18, 2015</small></h3>
             <br>
             <ul class="changelog">
@@ -69,12 +72,11 @@
               <li class="ch-updated">Some UI element had change in appearance</li>
               <li class="ch-fixed">Minor bugs in responsivity</li>
             </ul>
-
-          </section>
+          </section> -->
 
           <section>
-            <h3 id="v1.0.0">Version 1.0.0<small class="release-date">October 08, 2015</small></h3>
-            <p>Initial release.</p>
+            <h3 id="v1.0.0">Version 1.0.0<small class="release-date">October 08, 2016</small></h3>
+            <p>Initial product release.</p>
           </section>
 
           

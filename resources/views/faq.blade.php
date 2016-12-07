@@ -4,7 +4,11 @@
 
 @section('content')
 
-    @include('layout.header')
+    <header class="site-header">
+
+      @include('layout.header')
+
+    </header>
 
     <main class="container">
       <div class="row">
